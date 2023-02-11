@@ -1,0 +1,91 @@
+.green {
+    color: #43aa8b;
+}
+
+.orange {
+    color: #f9c74f;
+}
+
+.red {
+    color: #f94144;
+}
+
+.white {
+    color: #ffffff;
+
+}
+
+.card {
+    border: 0.15em solid #9e9e9ebd;
+    border-radius: 3.1415%;
+}
+
+
+/* Easy */
+
+:root {
+    --md-admonition-icon--easy: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>speedometer-slow</title><path d="M12 16C13.66 16 15 14.66 15 13C15 11.88 14.39 10.9 13.5 10.39L3.79 4.77L9.32 14.35C9.82 15.33 10.83 16 12 16M12 3C10.19 3 8.5 3.5 7.03 4.32L9.13 5.53C10 5.19 11 5 12 5C16.42 5 20 8.58 20 13C20 15.21 19.11 17.21 17.66 18.65H17.65C17.26 19.04 17.26 19.67 17.65 20.06C18.04 20.45 18.68 20.45 19.07 20.07C20.88 18.26 22 15.76 22 13C22 7.5 17.5 3 12 3M2 13C2 15.76 3.12 18.26 4.93 20.07C5.32 20.45 5.95 20.45 6.34 20.06C6.73 19.67 6.73 19.04 6.34 18.65C4.89 17.2 4 15.21 4 13C4 12 4.19 11 4.54 10.1L3.33 8C2.5 9.5 2 11.18 2 13Z" /></svg>');
+}
+
+.md-typeset .admonition.easy,
+.md-typeset details.easy {
+    border-color: #43aa8b;
+}
+
+.md-typeset .easy>.admonition-title,
+.md-typeset .easy>summary {
+    background-color: #43aa8b1a;
+}
+
+.md-typeset .easy>.admonition-title::before,
+.md-typeset .easy>summary::before {
+    background-color: #43aa8b;
+    -webkit-mask-image: var(--md-admonition-icon--easy);
+    mask-image: var(--md-admonition-icon--easy);
+}
+
+/* Medium */
+
+:root {
+    --md-admonition-icon--medium: url('data:image/svg+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>speedometer-medium</title><path d="M12 1.38L9.14 12.06C8.8 13.1 9.04 14.29 9.86 15.12C11.04 16.29 12.94 16.29 14.11 15.12C14.9 14.33 15.16 13.2 14.89 12.21M14.6 3.35L15.22 5.68C18.04 6.92 20 9.73 20 13C20 15.21 19.11 17.21 17.66 18.65H17.65C17.26 19.04 17.26 19.67 17.65 20.06C18.04 20.45 18.68 20.45 19.07 20.07C20.88 18.26 22 15.76 22 13C22 8.38 18.86 4.5 14.6 3.35M9.4 3.36C5.15 4.5 2 8.4 2 13C2 15.76 3.12 18.26 4.93 20.07C5.32 20.45 5.95 20.45 6.34 20.06C6.73 19.67 6.73 19.04 6.34 18.65C4.89 17.2 4 15.21 4 13C4 9.65 5.94 6.86 8.79 5.65" /></svg>')
+}
+
+.md-typeset .admonition.medium,
+.md-typeset details.medium {
+    border-color: #f9c74f;
+}
+
+.md-typeset .medium>.admonition-title,
+.md-typeset .medium>summary {
+    background-color: #f9c74f1a;
+}
+
+.md-typeset .medium>.admonition-title::before,
+.md-typeset .medium>summary::before {
+    background-color: #f9c74f;
+    -webkit-mask-image: var(--md-admonition-icon--medium);
+    mask-image: var(--md-admonition-icon--medium);
+}
+
+/* Hard */
+
+:root {
+    --md-admonition-icon--hard: url('data:image/svg+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>speedometer</title><path d="M12,16A3,3 0 0,1 9,13C9,11.88 9.61,10.9 10.5,10.39L20.21,4.77L14.68,14.35C14.18,15.33 13.17,16 12,16M12,3C13.81,3 15.5,3.5 16.97,4.32L14.87,5.53C14,5.19 13,5 12,5A8,8 0 0,0 4,13C4,15.21 4.89,17.21 6.34,18.65H6.35C6.74,19.04 6.74,19.67 6.35,20.06C5.96,20.45 5.32,20.45 4.93,20.07V20.07C3.12,18.26 2,15.76 2,13A10,10 0 0,1 12,3M22,13C22,15.76 20.88,18.26 19.07,20.07V20.07C18.68,20.45 18.05,20.45 17.66,20.06C17.27,19.67 17.27,19.04 17.66,18.65V18.65C19.11,17.2 20,15.21 20,13C20,12 19.81,11 19.46,10.1L20.67,8C21.5,9.5 22,11.18 22,13Z" /></svg>')
+}
+
+.md-typeset .admonition.hard,
+.md-typeset details.hard {
+    border-color: #f94144;
+}
+
+.md-typeset .hard>.admonition-title,
+.md-typeset .hard>summary {
+    background-color: #f941441a;
+}
+
+.md-typeset .hard>.admonition-title::before,
+.md-typeset .hard>summary::before {
+    background-color: #f94144;
+    -webkit-mask-image: var(--md-admonition-icon--hard);
+    mask-image: var(--md-admonition-icon--hard);
+}
