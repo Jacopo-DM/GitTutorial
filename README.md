@@ -1,6 +1,6 @@
 # GitTutorial
 
-To access the tutorial, [follow this link]((https://jacopo-dm.github.io/GitTutorial/)).
+To access the tutorial, [follow this link](https://jacopo-dm.github.io/GitTutorial/).
 
 Welcome to the official GitHub page of the "Introduction to Git" VU workshop organized by *MSc Mentor Program (2023)*!
 :wink:
