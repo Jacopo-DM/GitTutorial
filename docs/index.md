@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to the official website of the "Introduction to Git" VU workshop organized by MSc Mentor Program (2023)!
+Welcome to the official website of the "Introduction to Git" VU workshop organized by *MSc Mentor Program (2023)*!
 :wink:
 
 This tutorial contains a series of lessons that will teach you the basics of Git. It is intended for beginners who have never used Git before, but it can also serve as a refresher course for those who have used it in the past.
