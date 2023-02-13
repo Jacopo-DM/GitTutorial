@@ -1,5 +1,5 @@
 site_name: Basics of Git
-# repo_url: https://github.com/Jacopo-DM/GitTutorial
+repo_url: https://github.com/Jacopo-DM/GitTutorial
 theme:
   favicon: assets/fav.svg
   logo: assets/logo.svg
