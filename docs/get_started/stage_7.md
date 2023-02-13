@@ -292,5 +292,5 @@ You can view a hisitory of all the commits in your repository by clicking on the
 <center>
 ## You Have Successfully Finish The First Part of This Tutorial! :fireworks:
 
-[It's time to choose a project](/project/)
+[It's time to choose a project](../project/index.md)
 </center>
