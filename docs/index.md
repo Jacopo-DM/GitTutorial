@@ -7,7 +7,7 @@ This tutorial contains a series of lessons that will teach you the basics of Git
 
 Hopefully, you landed on this page after opening the link given to you on the day of the event, or as one of the pre-session reviewers, if you stumbled upon this page by accident please bare in mind this website was designed to go hand-in-hand with a physical workshop and isn't meant to be used as a standalone resource. 
 
-Find the slides for the workshop at [INSERT LINK TO SLIDES].
+Find the slides for the workshop at [this google drive link](https://docs.google.com/presentation/d/19a3nwVZPFIR5HiEy42X1cYcuCPnH8ggN3B_XZ61tvss/edit?usp=sharing).
 
 ## :octicons-git-merge-16: What is Git?
 
@@ -64,14 +64,14 @@ We crafted three possible projects, which we (hopefully) will get to after the p
 
 ### The Three Choices Are:
 
-!!! easy "Easy &emsp; [MNIST Classifier](project_mnist/)"
+!!! easy "Easy &emsp; [MNIST Classifier](project/mnist/)"
     Coding a basic [MNIST](https://en.wikipedia.org/wiki/MNIST_database) classifier using [Pytorch](https://pytorch.org/). 
     
 
-!!! medium "Medium &emsp; [Minecraft Clone](project_minecraft/)"
+!!! medium "Medium &emsp; [Minecraft Clone](project/minecraft/)"
     Coding a simple game using the [Ursina game engine](https://www.ursinaengine.org/) (Minecraft clone).
     
-!!! hard "Advanced &emsp; [Personal Website](project_website/)"
+!!! hard "Advanced &emsp; [Personal Website](project/website/)"
     Building and publishing a simple personal website using [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) (the same used for the website you are currently using).
     The website will be hosted on GitHub for free and you will be able to view the website from any browser.
 
